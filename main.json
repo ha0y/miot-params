@@ -1,34 +1,42 @@
 [
-  {
-    "device_model": "chuangmi.plug.212a01",
-    "device_type": "switch",
-    "mapping": "{\"switch_status\":{\"siid\":2,\"piid\":1}}",
-    "params": "{\"switch_status\":{\"power_on\":true,\"power_off\":false}}",
-    "cloud_read": false,
-    "cloud_write": false
-  },
-  {
-    "device_model": "leshi.light.wy0b01",
-    "device_type": "light",
-    "mapping": "{\"switch_status\":{\"siid\":2,\"piid\":1},\"brightness\":{\"siid\":2,\"piid\":2},\"color_temperature\":{\"siid\":2,\"piid\":3}}",
-    "params": "{\"switch_status\":{\"power_on\":true,\"power_off\":false},\"brightness\":{\"value_range\":[1,100,1]},\"color_temperature\":{\"value_range\":[3000,6400,1]}}",
-    "cloud_read": false,
-    "cloud_write": false
-  },
-  {
-    "device_model": "cuco.plug.cp1",
-    "device_type": "switch",
-    "mapping": "{\"switch_status\":{\"siid\":2,\"piid\":1}}",
-    "params": "{\"switch_status\":{\"power_on\":true,\"power_off\":false}}",
-    "cloud_read": false,
-    "cloud_write": false
-  },
-  {
-    "device_model": "mrbond.airer.m1t",
-    "device_type": "cover",
-    "mapping": "{\"motor_control\":{\"siid\":2,\"piid\":2},\"motor_status\":{\"siid\":2,\"piid\":4},\"current_position\":{\"siid\":2,\"piid\":10},\"target_position\":{\"siid\":2,\"piid\":13}}",
-    "params": "{\"motor_control\":{\"open\":1,\"close\":2,\"stop\":0},\"motor_status\":{\"open\":1,\"close\":2,\"stop\":3}}",
-    "cloud_read": true,
-    "cloud_write": false
-  }
- ]
+ {
+   "device_model": "chuangmi.plug.212a01",
+   "device_type": "switch",
+   "mapping": "{\"switch_status\":{\"siid\":2,\"piid\":1}}",
+   "params": "{\"switch_status\":{\"power_on\":true,\"power_off\":false}}",
+   "cloud_read": false,
+   "cloud_write": false
+ },
+ {
+   "device_model": "leshi.light.wy0b01",
+   "device_type": "light",
+   "mapping": "{\"switch_status\":{\"siid\":2,\"piid\":1},\"brightness\":{\"siid\":2,\"piid\":2},\"color_temperature\":{\"siid\":2,\"piid\":3}}",
+   "params": "{\"switch_status\":{\"power_on\":true,\"power_off\":false},\"brightness\":{\"value_range\":[1,100,1]},\"color_temperature\":{\"value_range\":[3000,6400,1]}}",
+   "cloud_read": false,
+   "cloud_write": false
+ },
+ {
+   "device_model": "cuco.plug.cp1",
+   "device_type": "switch",
+   "mapping": "{\"switch_status\":{\"siid\":2,\"piid\":1}}",
+   "params": "{\"switch_status\":{\"power_on\":true,\"power_off\":false}}",
+   "cloud_read": false,
+   "cloud_write": false
+ },
+ {
+   "device_model": "mrbond.airer.m1t",
+   "device_type": "cover",
+   "mapping": "{\"motor_control\":{\"siid\":2,\"piid\":2},\"motor_status\":{\"siid\":2,\"piid\":4},\"current_position\":{\"siid\":2,\"piid\":10},\"target_position\":{\"siid\":2,\"piid\":13}}",
+   "params": "{\"motor_control\":{\"open\":1,\"close\":2,\"stop\":0},\"motor_status\":{\"open\":1,\"close\":2,\"stop\":3}}",
+   "cloud_read": true,
+   "cloud_write": false
+ },
+ {
+   "device_model": "noc196.light.mdctd9",
+   "device_type": "light",
+   "mapping": "{\"switch_status\":{\"siid\":2,\"piid\":1},\"brightness\":{\"siid\":2,\"piid\":3},\"color_temperature\":{\"siid\":2,\"piid\":4}}",
+   "params": "{\"switch_status\":{\"power_on\":true,\"power_off\":false},\"brightness\":{\"value_range\":[1,100,1]},\"color_temperature\":{\"value_range\":[0,2,1]}}",
+   "cloud_read": false,
+   "cloud_write": false
+ }
+]
