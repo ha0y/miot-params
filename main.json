@@ -2,16 +2,8 @@
  {
    "device_model": "chuangmi.plug.212a01",
    "device_type": "switch",
-   "mapping": "{\"switch_status\":{\"siid\":2,\"piid\":1}}",
-   "params": "{\"switch_status\":{\"power_on\":true,\"power_off\":false}}",
-   "cloud_read": false,
-   "cloud_write": false
- },
- {
-   "device_model": "leshi.light.wy0b01",
-   "device_type": "light",
-   "mapping": "{\"switch_status\":{\"siid\":2,\"piid\":1},\"brightness\":{\"siid\":2,\"piid\":2},\"color_temperature\":{\"siid\":2,\"piid\":3}}",
-   "params": "{\"switch_status\":{\"power_on\":true,\"power_off\":false},\"brightness\":{\"value_range\":[1,100,1]},\"color_temperature\":{\"value_range\":[3000,6400,1]}}",
+   "mapping": "{\"switch_status\":{\"siid\":2,\"piid\":1},\"temperature\":{\"siid\":2,\"piid\":6},\"power\":{\"siid\":5,\"piid\":6}}",
+   "params": "{\"switch_status\":{\"power_on\":true,\"power_off\":false},\"power\":{\"value_ratio\":0.01}}",
    "cloud_read": false,
    "cloud_write": false
  },
